@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
 import { Form } from 'components/Form/Form';
 import { ContactList } from 'components/ContactList/ContactList';
 import { nanoid } from 'nanoid';
 import { Filter } from 'components/Filter/Filter';
-import { add, remove, getByName, check } from 'redux/Slices';
+import { add, remove, check } from 'redux/Slices';
 import { useDispatch, useSelector } from 'react-redux';
 
 export const Phonebook = () => {
